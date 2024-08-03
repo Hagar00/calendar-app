@@ -17,7 +17,7 @@ export default function Home() {
    <ScheduleComponent
     width='100%'
      height='550px'
-      currentView='Day' 
+      currentView='Wee' 
       selectedDate={new Date(2024, 7, 3)}
       enableAdaptiveUI={true} 
        eventSettings={eventSettings}>
