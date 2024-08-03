@@ -17,15 +17,15 @@ export default function Home() {
    <ScheduleComponent
     width='100%'
      height='550px'
-      currentView='Wee' 
+      currentView='Week' 
       selectedDate={new Date(2024, 7, 3)}
       enableAdaptiveUI={true} 
        eventSettings={eventSettings}>
-        {/* <ViewsDirective>
+        <ViewsDirective>
           <ViewDirective option='Day' />
           <ViewDirective option='Week' />
           <ViewDirective option='Month' />
-        </ViewsDirective> */}
+        </ViewsDirective> 
         <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
       </ScheduleComponent> 
     </main>
