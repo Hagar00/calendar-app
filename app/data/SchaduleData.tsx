@@ -2,7 +2,7 @@
 
 export let timelineResourceData: Object[] = [
     {
-        Id: 61,
+        Id: 1,
         Subject: 'Work site',
         StartTime: new Date(2024, 7, 3, 14, 30),
         EndTime: new Date(2024, 7, 3, 15, 30),
@@ -10,34 +10,34 @@ export let timelineResourceData: Object[] = [
         ProjectId: 2,
         TaskId: 2
     },{
-        Id: 61,
+        Id: 2,
         Subject: 'Daily Standup',
-        StartTime: new Date(2024, 8, 4, 9, 30),
-        EndTime: new Date(2024, 8, 4, 10, 30),
+        StartTime: new Date(2024, 7, 3, 9, 30),
+        EndTime: new Date(2024, 7, 3, 10, 30),
         IsAllDay: true,
         ProjectId: 2,
         TaskId: 2
     }, {
-        Id: 62,
+        Id: 3,
         Subject: 'task day two',
-        StartTime: new Date(2024, 9, 4, 13, 30),
-        EndTime: new Date(2024, 9, 4, 16, 30),
+        StartTime: new Date(2024, 7, 4, 13, 30),
+        EndTime: new Date(2024, 7, 4, 16, 30),
         IsAllDay: false,
         ProjectId: 2,
         TaskId: 1
     }, {
-        Id: 63,
+        Id: 4,
         Subject: 'task day three',
-        StartTime: new Date(2024, 9, 4, 9),
-        EndTime: new Date(2024, 9, 4, 10, 30),
+        StartTime: new Date(2024, 7, 4, 9),
+        EndTime: new Date(2024, 7, 4, 10, 30),
         IsAllDay: false,
         ProjectId: 1,
         TaskId: 1
     }, {
-        Id: 64,
+        Id: 5,
         Subject: 'task day four',
-        StartTime: new Date(2024, 10, 4, 12),
-        EndTime: new Date(2024, 10, 4, 13),
+        StartTime: new Date(2024, 7, 4, 12),
+        EndTime: new Date(2024, 7, 4, 13),
         IsAllDay: false,
         ProjectId: 1,
         TaskId: 1
