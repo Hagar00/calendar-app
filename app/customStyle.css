@@ -1,0 +1,21 @@
+/* custom-schedule.css */
+
+.my-custom-schedule .e-header-cells {
+    background-color: #7FA1C3;
+  }
+  .my-custom-schedule .e-work-cells {
+    background-color: #7FA1C3;
+  }
+  
+  .my-custom-schedule .e-appointment {
+    border-color: #7FA1C3;
+  }
+  
+  .my-custom-schedule .e-appointment .e-subject {
+    color: #F9E400;
+  }
+  .e-schedule .e-selected-cell {
+    background-color: #d1e7dd;
+  }
+  
+    
